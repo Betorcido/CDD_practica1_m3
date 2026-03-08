@@ -1,0 +1,11 @@
+# Ignorar todo
+*
+
+# NO ignorar directorios (esto es necesario para que Git pueda entrar a buscar archivos no ignorados)
+!*/
+
+# NO ignorar archivos de Jupyter Notebook
+!*.ipynb
+
+# NO ignorar el propio .gitignore (recomendado, aunque si quieres puedes omitirlo)
+!.gitignore
