@@ -1,11 +1,23 @@
-# Ignorar todo
-*
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
 
-# NO ignorar directorios (esto es necesario para que Git pueda entrar a buscar archivos no ignorados)
-!*/
+# Virtual environments
+.venv
 
-# NO ignorar archivos de Jupyter Notebook
-!*.ipynb
+# Data files
+data/
 
-# NO ignorar el propio .gitignore (recomendado, aunque si quieres puedes omitirlo)
-!.gitignore
+# OS files
+.DS_Store
+
+# David files
+.python-version
+main.py
+pyproject.toml
+README.md
+uv.lock
