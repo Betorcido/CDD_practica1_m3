@@ -11,6 +11,7 @@ wheels/
 
 # Data files
 data/
+src/
 
 # OS files
 .DS_Store
@@ -21,3 +22,6 @@ main.py
 pyproject.toml
 README.md
 uv.lock
+
+# Jupiter notebooks
+M3_P1_DMC_v2.ipynb
